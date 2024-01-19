@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.banner{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.banner p {
+    font-size: 25px;
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 60px;
+}
+.banner h1 {
+    font-size: 90px;
+    color: antiquewhite;
+    font-family: serif;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+
+.container{
+    clear: both;
+    overflow: auto;
+}
+
+nav{
+    float: right;
+}
+ 
+ul li {
+    display: inline-block; 
+    padding:10px;
+    font-size:20px; 
+    font-family:raleway;
+}
+ul li a{
+    text-decoration: none;
+    color: #424247;
+}
+.container h3{
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left:150px;
+    position: absolute;
+    margin-top:  15px;
+
+}
+.logo img{
+    margin-top:  15px;
+    float: left;
+    width: 48px;
+    height: 56.008px;
+    margin-left: 28px;
+    font-size: 1.5em;
+    height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+nav ul .home-style{
+    color: #FF5400;
+}
+.container .travel-style{
+    color: #FF5400;
+}
+.banner .btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.banner .btn-p1{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner .btn-p2{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner .btn-p3{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner .btn-p4{
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-content .section-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.features .tours li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.feature-content .tours li a{
+    text-decoration: none;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 50px;
+    
+}
+.feature-content p{
+   color: rgba(19, 19, 24, 0.70);
+   font-family: Mulish;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+   margin-top: 50px;
+}
+.feature-content .second-btn{
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.feature .feature-img{
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.section-title2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section-title2 h4{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-title2 p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.choose .img1{
+    padding: 5px;
+    margin: 5px;
+}
+.choose .img1 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.choose .img2{
+    padding: 5px;
+    margin: 5px;
+}
+
+.choose .img2 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.choose2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+}
+.choose2 .img3{
+    margin-top:  100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 5px;
+    padding: 5px;
+}
+    
+.choose2 .img3 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.choose2 .img4{
+    margin-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 5px;
+    padding: 5px;
+}
+.choose2 .img4 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.choose2 .img5{
+    margin-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+   margin: 5px;
+   padding: 5px;
+}
+.choose2 .img5 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.choose3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.choose3 .img6{
+    margin-top:  100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 5px;
+    padding: 5px;
+}
+    
+.choose3 .img6 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.choose3 .img7{
+    margin-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 5px;
+    padding: 5px;
+}
+.choose3 .img7 h3{
+    margin-top:  -175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/*simple place style*/
+.simple{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.simple-content .simple-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.simple .text li{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.simple-content .text li a{
+    text-decoration: none;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+
+.text li a{
+    margin-top: 100px;
+}
+.simple-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+ }
+ .simple-content .simple-btn{
+     width: 174px;
+     height: 52px;
+     color: #FFF;
+     text-align: center;
+     font-family: Mulish;
+     font-size: 20px;
+     font-weight: 800;
+     line-height: normal;
+     border-radius: 8px;
+     background: #FF5400;
+     margin-top: 20px;
+ }
+ .simple .simple-img{
+    margin-right: -85px;
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+
+
+}
+
+
+.simple-title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.simple-title h4{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.simple-content p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.simple .simple-content{
+    margin: 10px;
+    margin-left: -100px;
+}
+.simple-img h3{
+    margin-top:  -250px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.container2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.folder{
+    width: 1440px;
+    height: 6940px;
+    margin-top: 50px;
+   
+}
+
+.news-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.container2 .folder-img{
+    margin-right: -30px;
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+
+}
+.container2 .news{
+    width: 465px;
+    height: 404px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-left: -48px;
+ }
+  .folder .subscribe-btn{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 10px;
+ }
+
+.folder .text1{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 15px;
+    font-weight: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+ 
+ }
+ .folder .text2{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 15px;
+    font-weight: 400px;
+    margin-left: 10px;
+    margin-top: 20px;
+ }
+ .folder-img h3{
+    margin-top:  -171px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400; 
+    margin-left: 342px;
+}
