@@ -542,3 +542,101 @@ nav ul .home-style{
     background: #FF5400; 
     margin-left: 342px;
 }
+
+
+
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 .logo2{
+    padding: 10px;
+    margin: 10px;
+}
+.container3 h3{
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+}
+.container3 .travel-style2{
+    color: #FF5400;
+}
+.section-nbr p{
+    text-align: center;
+    justify-content: center;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-nbr .icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.icons .icon1{
+    padding: 10px;
+    margin: 10px;
+}
+.icons .icon2{
+    padding: 10px;
+    margin: 10px;
+}
+.icons .icon3{
+    padding: 10px;
+    margin: 10px;
+}
+.icons .icon4{
+    padding: 10px;
+    margin: 10px;
+}
+.section-nbr .reserved{
+    text-align: center;
+    justify-content: center;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*responsive style*/
+
+@media screen and (max-width: 576px) {
+    header{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .simple{
+        margin-top: 130px;
+    }
+
+    .features,
+    .banner h1,
+    .folder,
+    .news,
+    .simple-content .simple-title,
+    .logo,
+    .banner,
+    .container,
+    .home-style,
+    .simple,
+    .container2 ,
+    .container3 ,
+    .section-nbr .icons ,
+    .container2,
+    .folder-img,
+    .container2,
+    .choose,
+    .choose2,
+    .choose3{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 576px) and (max-width: 960px) {
+   
+}
